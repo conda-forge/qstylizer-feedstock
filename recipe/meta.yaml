@@ -1,5 +1,5 @@
 {% set name = "qstylizer" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/blambright/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 95f7666929cc34efbbd9e0640a13f507b8ec35ec34a9604017cf96c24f7f9ea6
+  sha256: d9fedb8794b6bbbc9ba4166076095eb97dd1eacabfc40c6e1bc01f44f1f5cfd8
 
 build:
   noarch: python
